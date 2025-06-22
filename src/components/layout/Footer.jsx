@@ -23,8 +23,8 @@ const Footer = () => {
   const quickLinks = [
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Portfolio', path: '/portfolio' },
-    { name: 'Blog', path: '/blog' },
+//    { name: 'Portfolio', path: '/portfolio' },
+//    { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
     { name: 'Privacy Policy', path: '/privacy' }
   ];
@@ -59,13 +59,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <EnvelopeIcon className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">info@MKN Infotech.com</span>
+                <span className="text-gray-300">sales@mkninfotech.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPinIcon className="h-5 w-5 text-blue-400 mt-1" />
                 <span className="text-gray-300">
-                  123 Business Ave, Suite 100<br />
-                  New York, NY 10001
+                  Noida Sec - 62, Uttar Pradesh<br />
+                  India 201309
                 </span>
               </div>
             </div>
@@ -157,7 +157,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 MKN Infotech. All rights reserved.
+              © 2025 MKN Infotech. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">

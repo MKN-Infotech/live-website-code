@@ -22,7 +22,7 @@ const About = () => {
       image: 'path/to/carlos-image.jpg', // replace with actual image path
     },
     {
-      name: 'Emma Wilson',
+      name: 'Surendar Singh Bhandari',
       designation: 'Cybersecurity Specialist',
       experience: '8+ years in cybersecurity',
       image: 'path/to/emma-image.jpg', // replace with actual image path

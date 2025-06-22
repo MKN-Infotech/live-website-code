@@ -1,20 +1,19 @@
 // File: src/components/sections/About.jsx
 // About section component - place this in src/components/sections/About.jsx
-
 import React from 'react';
-import { CheckCircleIcon, ShieldCheckIcon, ClockIcon } from '@heroicons/react/24/outline';
+import { CheckCircleIcon, ShieldCheckIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline';
 
 const About = () => {
   const features = [
     {
       icon: <ShieldCheckIcon className="h-12 w-12 text-blue-600" />,
-      title: "Moneyback Guarantee",
-      description: "We stand behind our work with a 100% satisfaction guarantee"
+      title: "Trusted IT Advisors",
+      description: "Guiding businesses with expert advice and strategic technology planning."
     },
     {
-      icon: <ClockIcon className="h-12 w-12 text-blue-600" />,
-      title: "24/7 Technical Support",
-      description: "Round-the-clock support to keep your business running smoothly"
+      icon: <ChatBubbleLeftRightIcon className="h-12 w-12 text-blue-600" />,
+      title: "Reliable Ongoing Support",
+      description: "Consistent and responsive support to keep your operations running smoothly."
     }
   ];
 
@@ -27,12 +26,12 @@ const About = () => {
             <div className="mb-6">
               <span className="text-blue-600 font-semibold text-lg">About Our Company ~</span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mt-2 leading-tight">
-                Choose The Best IT Service Company
+                Empowering Your Business with Smart IT Solutions
               </h2>
             </div>
-            
+
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              An IT firm or MSP who keeps your IT running smoothly at all times is like a plumber who fixes your pipes; that's what they are supposed to do. Many IT firms struggle to provide consistent, reliable service that businesses can depend on.
+              We help businesses grow with dependable IT services, from planning and development to support and scaling. Our mission is to keep your systems efficient, secure, and aligned with your goals.
             </p>
 
             {/* Features */}
@@ -78,7 +77,7 @@ const About = () => {
                 alt="About IT Firm"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
-              
+
               {/* Floating Elements */}
               <div className="absolute -top-6 -right-6 bg-blue-600 text-white p-6 rounded-2xl shadow-lg">
                 <div className="text-center">
@@ -86,7 +85,7 @@ const About = () => {
                   <div className="text-sm">Years Experience</div>
                 </div>
               </div>
-              
+
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-lg">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">500+</div>
@@ -94,7 +93,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Background Decoration */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl transform rotate-3 scale-105 -z-10"></div>
           </div>

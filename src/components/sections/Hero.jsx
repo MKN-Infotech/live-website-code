@@ -9,9 +9,9 @@ const Hero = () => {
 
   const slides = [
     {
-      title: "Choose The Best IT Service Company",
-      subtitle: "IT Solutions for Your Business Growth",
-      description: "We provide comprehensive IT services to help your business thrive in the digital age. From consulting to implementation, we've got you covered.",
+      title: "Smart IT Services for Your Business",
+      subtitle: "Simple Solutions That Work",
+      description: "We help your business grow with reliable IT support and easy-to-use solutions. From advice to setup, we make tech simple.",
       buttonText: "Our Team",
       image: "/images/hero-bg.jpg"
     },
@@ -23,9 +23,9 @@ const Hero = () => {
       image: "/images/hero-bg-2.jpg"
     },
     {
-      title: "24/7 Technical Support",
-      subtitle: "Always Here When You Need Us",
-      description: "Our expert team provides round-the-clock support to ensure your systems run smoothly. Experience peace of mind with our reliable IT services.",
+      title: "Reliable Technical Support",
+      subtitle: "Support That Keeps You Moving",
+      description: "Our experienced team is ready to solve your IT issues quickly and efficiently. Count on us to keep your business running without interruptions.",
       buttonText: "Contact Us",
       image: "/images/hero-bg-3.jpg"
     }

@@ -8,7 +8,7 @@ import Services from '../components/sections/Services';
 import Portfolio from '../components/sections/Portfolio';
 import WhyChooseUs from '../components/sections/WhyChooseUs';
 import Stats from '../components/sections/Stats';
-import PricingPlans from '../components/sections/PricingPlans';
+//import PricingPlans from '../components/sections/PricingPlans';
 import Testimonials from '../components/sections/Testimonials';
 import BlogSection from '../components/sections/BlogSection';
 
@@ -21,7 +21,7 @@ const Home = () => {
       <Portfolio />
       <WhyChooseUs />
       <Stats />
-      <PricingPlans />
+//      <PricingPlans />
       <Testimonials />
       <BlogSection />
     </div>

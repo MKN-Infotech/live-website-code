@@ -14,43 +14,40 @@ import {
 const Services = () => {
   const services = [
     {
-{
-  icon: <GlobeAltIcon className="h-12 w-12" />,  
-  title: "Web & Application Development",
-  description: "Custom websites and apps built to power your business and engage your users across all platforms.",
-  color: "from-blue-500 to-blue-600"
-},
-{
-  icon: <CloudIcon className="h-12 w-12" />,
-  title: "Cloud Solutions",
-  description: "Scalable cloud services to boost flexibility, reduce costs, and support your digital transformation.",
-  color: "from-purple-500 to-purple-600"
-},
-{
-  icon: <ShieldCheckIcon className="h-12 w-12" />,
-  title: "Cybersecurity & Compliance",
-  description: "Protect your data and ensure compliance with tailored security strategies and proactive monitoring.",
-  color: "from-green-500 to-green-600"
-},
-{
-  icon: <WrenchScrewdriverIcon className="h-12 w-12" />,
-  title: "DevOps & Automation",
-  description: "Accelerate delivery and improve efficiency with smart automation and streamlined DevOps practices.",
-  color: "from-yellow-500 to-orange-600"
-},
-{
-  icon: <ServerStackIcon className="h-12 w-12" />,
-  title: "IT Infrastructure & Support Services",
-  description: "Reliable infrastructure and responsive support to keep your systems running smoothly every day.",
-  color: "from-pink-500 to-red-600"
-},
-{
-  icon: <DevicePhoneMobileIcon className="h-12 w-12" />,
-  title: "Networking & Systems Integration",
-  description: "Seamless network solutions and system integrations that connect your entire business securely.",
-  color: "from-indigo-500 to-indigo-600"
-}
-
+      icon: <PaintBrushIcon className="h-12 w-12" />,
+      title: "Web & Application Development",
+      description: "Custom websites and apps built to power your business and engage your users across all platforms.",
+      color: "from-blue-500 to-blue-600"
+    },
+    {
+      icon: <ChartBarIcon className="h-12 w-12" />,
+      title: "Cloud Solutions",
+      description: "Scalable cloud services to boost flexibility, reduce costs, and support your digital transformation.",
+      color: "from-purple-500 to-purple-600"
+    },
+    {
+      icon: <RocketLaunchIcon className="h-12 w-12" />,
+      title: "Cybersecurity & Compliance",
+      description: "Protect your data and ensure compliance with tailored security strategies and proactive monitoring.",
+      color: "from-green-500 to-green-600"
+    },
+    {
+      icon: <LightBulbIcon className="h-12 w-12" />,
+      title: "DevOps & Automation",
+      description: "Accelerate delivery and improve efficiency with smart automation and streamlined DevOps practices.",
+      color: "from-yellow-500 to-orange-600"
+    },
+    {
+      icon: <MegaphoneIcon className="h-12 w-12" />,
+      title: "IT Infrastructure & Support Services",
+      description: "Reliable infrastructure and responsive support to keep your systems running smoothly every day.",
+      color: "from-pink-500 to-red-600"
+    },
+    {
+      icon: <CogIcon className="h-12 w-12" />,
+      title: "Networking & Systems Integration",
+      description: "Seamless network solutions and system integrations that connect your entire business securely.",
+      color: "from-indigo-500 to-indigo-600"
     }
   ];
 

@@ -60,7 +60,7 @@ const Header = () => {
               </Link>
             ))}
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-yellow-500 transition-all duration-300">
-              Get Quote
+              Get In Touch
             </button>
           </div>
 
@@ -96,7 +96,7 @@ const Header = () => {
                 </Link>
               ))}
               <button className="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-yellow-500 transition-all duration-300 mt-4">
-                Get Quote
+                Get In Touch
               </button>
             </div>
           </div>

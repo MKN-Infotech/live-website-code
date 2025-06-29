@@ -1,5 +1,4 @@
 // File: src/pages/Home.jsx
-// Complete homepage with all sections
 
 import React from 'react';
 import Hero from '../components/sections/Hero';
@@ -21,9 +20,12 @@ const Home = () => {
       <Portfolio />
       <WhyChooseUs />
       <Stats />
-      <PricingPlans />
+
+      {/* <PricingPlans /> */}
+
       <Testimonials />
-      <BlogSection />
+
+      {/* <BlogSection /> */}
     </div>
   );
 };

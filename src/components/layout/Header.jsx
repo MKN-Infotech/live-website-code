@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Logo from '../common/Logo'; // Logo-Surendar
+import Logo from '../common/Logo'; // ✅ Update path if needed
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,24 +25,16 @@ const Header = () => {
   ];
 
   return (
-    <header
-      className={`fixed w-full top-0 z-50 transition-all duration-500 ${
-        isScrolled
-          ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg py-2'
-          : 'bg-transparent py-4'
-      }`}
-    >
+    <header className={`fixed w-full top-0 z-50 transition-all duration-500 ${
+      isScrolled
+        ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg py-2'
+        : 'bg-transparent py-4'
+    }`}>
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex-shrink-0">
-            <div
-              className={`w-[120px] transition-transform duration-500 ${
-                isScrolled ? 'transform scale-105' : ''
-              }`}
-            >
-              <Logo />
-            </div>
+          <Link to="/" className="flex items-center space-x-2">
+            <Logo />
           </Link>
 
           {/* Desktop Navigation */}
@@ -102,4 +94,9 @@ const Header = () => {
             </div>
           </div>
         )}
-      </na
+      </nav>
+    </header>
+  );
+};
+
+export default Header;

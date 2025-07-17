@@ -134,8 +134,7 @@ const Contact = () => {
         <div className="mt-16">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Location</h2>
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112178.64480204455!2d77.40182545!3d28.5222018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1750590585783!5m2!1sen!2sin"
+<iframe title="Google Map Location"              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112178.64480204455!2d77.40182545!3d28.5222018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1750590585783!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}

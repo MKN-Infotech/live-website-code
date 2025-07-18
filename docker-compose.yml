@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  mkninfotech-website-service:
+    image: localhost:5000/mkninfotechwebsite:latest
+    ports:
+      - "3001:80"
+    volumes:
+      - mkninfotech-website-service:/usr/share/nginx/html
+    restart: always
+
+volumes:
+  mkninfotech-website-service:

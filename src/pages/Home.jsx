@@ -22,6 +22,8 @@ const Home = () => {
 
       {/* <PricingPlans /> */}
 
+Anuj
+
       <Testimonials />
 
       {/* <BlogSection /> */}

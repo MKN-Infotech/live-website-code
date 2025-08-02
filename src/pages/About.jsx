@@ -9,30 +9,7 @@ const About = () => {
       experience: '15+ years in IT leadership',
       image: 'path/to/john-image.jpg', // replace with actual image path
     },
-    {
-      name: 'Jane Smith',
-      designation: 'Lead Developer',
-      experience: '10+ years in software engineering',
-      image: 'path/to/jane-image.jpg', // replace with actual image path
-    },
-    {
-      name: 'Carlos Perez',
-      designation: 'Senior Cloud Architect',
-      experience: '12+ years in cloud solutions',
-      image: 'path/to/carlos-image.jpg', // replace with actual image path
-    },
-    {
-      name: 'Surendar Singh Bhandari',
-      designation: 'Cybersecurity Specialist',
-      experience: '8+ years in cybersecurity',
-      image: 'path/to/emma-image.jpg', // replace with actual image path
-    },
-    {
-      name: 'David Lee',
-      designation: 'DevOps Engineer',
-      experience: '7+ years in DevOps and automation',
-      image: 'path/to/david-image.jpg', // replace with actual image path
-    },
+    
   ];
 
   return (

@@ -33,12 +33,6 @@ const About = () => {
       experience: '7+ years in DevOps and automation',
       image: 'path/to/david-image.jpg', // replace with actual image path
     },
-    {
-      name: 'Sophia Turner',
-      designation: 'Network Engineer',
-      experience: '9+ years in networking solutions',
-      image: 'path/to/sophia-image.jpg', // replace with actual image path
-    },
   ];
 
   return (

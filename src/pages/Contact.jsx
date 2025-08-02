@@ -112,12 +112,12 @@ const Contact = () => {
             <p className="text-lg text-gray-600">
               Address: UP, India
             </p>
-            <p className="text-lg text-gray-600">Phone: <a href="tel:+9199999999" className="text-indigo-600">+91-9990985392</a></p>
-            <p className="text-lg text-gray-600">Email: <a href="mailto:sales@mkninfotech.com" className="text-indigo-600">admin@mkninfotech.com</a></p>
+            <p className="text-lg text-gray-600">Phone: <a href="tel:+91-99909 85392" className="text-indigo-600">+91-9990985392</a></p>
+            <p className="text-lg text-gray-600">Email: <a href="mailto:admin@mkninfotech.com" className="text-indigo-600">admin@mkninfotech.com</a></p>
 
             {/* Social Media Links */}
             <div className="flex space-x-6">
-              <a href="https://www.linkedin.com/company/mkninfotech" className="text-indigo-600 hover:text-indigo-800" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/mkn-info-technologies" className="text-indigo-600 hover:text-indigo-800" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
               <a href="https://twitter.com/mkninfotech" className="text-indigo-600 hover:text-indigo-800" target="_blank" rel="noopener noreferrer">

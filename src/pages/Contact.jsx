@@ -112,8 +112,8 @@ const Contact = () => {
             <p className="text-lg text-gray-600">
               Address: UP, India
             </p>
-            <p className="text-lg text-gray-600">Phone: <a href="tel:+9199999999" className="text-indigo-600">+91-99999999</a></p>
-            <p className="text-lg text-gray-600">Email: <a href="mailto:sales@mkninfotech.com" className="text-indigo-600">sales@mkninfotech.com</a></p>
+            <p className="text-lg text-gray-600">Phone: <a href="tel:+9199999999" className="text-indigo-600">+91-9990985392</a></p>
+            <p className="text-lg text-gray-600">Email: <a href="mailto:sales@mkninfotech.com" className="text-indigo-600">admin@mkninfotech.com</a></p>
 
             {/* Social Media Links */}
             <div className="flex space-x-6">

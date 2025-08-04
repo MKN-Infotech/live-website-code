@@ -110,7 +110,7 @@ const Contact = () => {
           <div className="space-y-6">
             <h2 className="text-2xl font-semibold text-gray-800">Our Contact Information</h2>
             <p className="text-lg text-gray-600">
-              Address: Noida Sec-62, Uttar Pradesh
+              Address: Noida Sec-62, Uttar Pradesh,
 India 201309
             </p>
             <p className="text-lg text-gray-600">Phone: <a href="tel:+91-99909 85392" className="text-indigo-600">+91-9990985392</a></p>

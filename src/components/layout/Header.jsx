@@ -26,8 +26,8 @@ const Header = () => {
     <header
       className={`fixed w-full top-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg py-2'
-          : 'bg-transparent py-4'
+          ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg py-1'
+          : 'bg-transparent py-2'
       }`}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">

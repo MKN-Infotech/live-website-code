@@ -6,7 +6,8 @@ import About from '../components/sections/About';
 import Services from '../components/sections/Services';
 import WhyChooseUs from '../components/sections/WhyChooseUs';
 import Stats from '../components/sections/Stats';
-import Testimonials from '../components/sections/Testimonials';
+import CTA from '../components/sections/CTA';
+// import Testimonials from '../components/sections/Testimonials';
 
 const Home = () => {
   return (
@@ -14,16 +15,18 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
-	  
-      {/* <Portfolio /> */}
 
+      {/* <Portfolio /> */}
       <WhyChooseUs />
       <Stats />
+      <CTA />
+
+
 
       {/* <PricingPlans /> */}
 
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       {/* <BlogSection /> */}
     </div>

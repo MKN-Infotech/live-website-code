@@ -1,101 +1,94 @@
 // File: src/components/sections/About.jsx
-// About section component - place this in src/components/sections/About.jsx
 import React from 'react';
-import { CheckCircleIcon, ShieldCheckIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline';
+import {
+  CheckCircleIcon,
+  ShieldCheckIcon,
+  ChatBubbleLeftRightIcon
+} from '@heroicons/react/24/outline';
 
 const About = () => {
   const features = [
     {
-      icon: <ShieldCheckIcon className="h-12 w-12 text-blue-600" />,
+      icon: <ShieldCheckIcon className="h-8 w-8 text-blue-600" />,
       title: "Trusted IT Advisors",
-      description: "Guiding businesses with expert advice and strategic technology planning."
+      description: "Expert strategic planning and consulting tailored to your business goals."
     },
     {
-      icon: <ChatBubbleLeftRightIcon className="h-12 w-12 text-blue-600" />,
-      title: "Reliable Ongoing Support",
-      description: "Consistent and responsive support to keep your operations running smoothly."
+      icon: <ChatBubbleLeftRightIcon className="h-8 w-8 text-blue-600" />,
+      title: "Reliable Support Systems",
+      description: "We provide real-time, scalable support to ensure business continuity."
     }
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
+    <section className="py-24 bg-gradient-to-br from-white to-gray-100">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          
+          {/* === Left Content === */}
           <div>
-            <div className="mb-6">
-              <span className="text-blue-600 font-semibold text-lg">About Our Company ~</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mt-2 leading-tight">
-                Empowering Your Business with Smart IT Solutions
-              </h2>
-            </div>
+            <span className="text-blue-600 font-semibold tracking-wide text-lg uppercase">
+              About Our Company
+            </span>
 
-            <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              We help businesses grow with dependable IT services, from planning and development to support and scaling. Our mission is to keep your systems efficient, secure, and aligned with your goals.
+            <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-800 mt-3 leading-tight">
+              Empowering Your Business with Smart IT Solutions
+            </h2>
+
+            <p className="text-gray-600 text-lg mt-6 mb-10 leading-relaxed">
+              At the heart of everything we do is your success. From infrastructure planning to ongoing support,
+              we deliver dependable, scalable, and secure IT services that fuel growth and innovation.
             </p>
 
             {/* Features */}
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
-              {features.map((feature, index) => (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 bg-blue-100 p-3 rounded-lg">
+            <div className="grid sm:grid-cols-2 gap-6 mb-10">
+              {features.map((feature, idx) => (
+                <div key={idx} className="flex items-start gap-4 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     {feature.icon}
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-2">{feature.title}</h3>
-                    <p className="text-gray-600 text-sm">{feature.description}</p>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-1">{feature.title}</h3>
+                    <p className="text-sm text-gray-600">{feature.description}</p>
                   </div>
                 </div>
               ))}
             </div>
 
-            {/* Key Points */}
-            <div className="space-y-3 mb-8">
+            {/* Key Highlights */}
+            <div className="space-y-3 mb-10">
               {[
-                "Experienced team of certified professionals",
-                "Customized solutions for your business needs",
-                "Proven track record of successful implementations",
-                "Cutting-edge technology and best practices"
+                "Certified IT professionals with 15+ years experience",
+                "Solutions tailored to your industry and goals",
+                "Proven implementation success across 30+ sectors",
+                "Committed to innovation with secure, scalable tech"
               ].map((point, index) => (
-                <div key={index} className="flex items-center space-x-3">
-                  <CheckCircleIcon className="h-5 w-5 text-green-500 flex-shrink-0" />
+                <div key={index} className="flex items-center gap-3">
+                  <CheckCircleIcon className="h-5 w-5 text-green-500" />
                   <span className="text-gray-700">{point}</span>
                 </div>
               ))}
             </div>
 
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-md hover:scale-105 transition">
               Learn More About Us
             </button>
           </div>
 
-          {/* Right Image */}
+          {/* === Right Side Image + Stats === */}
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/images/about-img.jpg"
-                alt="About IT Firm"
-                className="w-full h-auto rounded-2xl shadow-2xl"
+                src="/src/images/about-img.jpg"
+                alt="IT Company Team"
+                className="w-full h-auto rounded-3xl shadow-xl"
               />
 
-              {/* Floating Elements */}
-              <div className="absolute -top-6 -right-6 bg-blue-600 text-white p-6 rounded-2xl shadow-lg">
-                <div className="text-center">
-                  <div className="text-3xl font-bold">15+</div>
-                  <div className="text-sm">Years Experience</div>
-                </div>
-              </div>
 
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">500+</div>
-                  <div className="text-sm text-gray-600">Happy Clients</div>
-                </div>
-              </div>
             </div>
 
-            {/* Background Decoration */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl transform rotate-3 scale-105 -z-10"></div>
+            {/* Decorative Background Layer */}
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl rotate-2 scale-105 -z-10" />
           </div>
         </div>
       </div>

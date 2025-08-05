@@ -1,4 +1,5 @@
 // File: src/components/sections/Hero.jsx
+
 import React, { useState, useEffect } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 
@@ -11,21 +12,21 @@ const Hero = () => {
       subtitle: "Simplify. Scale. Secure.",
       description: "We empower businesses with scalable, secure, and intelligent IT infrastructure—designed to future-proof your operations.",
       buttonText: "Meet Our Experts",
-      image: "/src/assets/images/about-img.jpg"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ZdZ50OTysFwmGWQnivuT6PMBU33PATEZ2Q&s"
     },
     {
       title: "Accelerate Digital Innovation with Confidence",
       subtitle: "Digital is Now",
       description: "Harness automation, cloud, and data to transform your business. We make complex technology simple and reliable.",
       buttonText: "Get Started",
-      image: "/images/hero-bg-2.jpg"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-KyUhZK6iyROTjeYmab98VyrA6-L-et1eA&s"
     },
     {
       title: "Enterprise-Grade Support. Human-Centered Delivery.",
       subtitle: "Trust at Every Step",
       description: "Our support team is always on—so your business never stops. Partner with us for peace of mind in a digital-first world.",
       buttonText: "Talk to Us",
-      image: "/images/hero-bg-3.jpg"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEaDEtyAHjVLn0y0eyu31L55ijq8f_VdS_sg&s"
     }
   ];
 
@@ -52,7 +53,6 @@ const Hero = () => {
             backgroundImage: `url(${slide.image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            filter: index === currentSlide ? 'blur(0px)' : 'blur(4px)',
             transform: 'scale(1.05)'
           }}
         />

@@ -1,4 +1,5 @@
 // File: src/components/sections/About.jsx
+import img from "../../assets/images/about-img.jpg"
 import React from 'react';
 import {
   CheckCircleIcon,
@@ -79,7 +80,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/src/images/about-img.jpg"
+                src={img}
                 alt="IT Company Team"
                 className="w-full h-auto rounded-3xl shadow-xl"
               />
